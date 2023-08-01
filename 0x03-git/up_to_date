@@ -1,0 +1,33 @@
+Below are some commonly used Git commands in the command-line interface (CLI):
+
+1. `git init`: Initializes a new Git repository in the current directory.
+
+2. `git clone <repository_url>`: Clones (downloads) a remote Git repository to your local machine.
+
+3. `git add <file_name>`: Stages a file for the next commit. You can also use `git add .` to stage all changed files.
+
+4. `git commit -m "commit message"`: Commits the staged changes with a brief commit message describing the changes.
+
+5. `git status`: Shows the current status of the repository, including tracked/untracked files and changes.
+
+6. `git log`: Displays the commit history of the repository.
+
+7. `git pull`: Fetches and merges changes from a remote repository into the current branch.
+
+8. `git push`: Pushes the local commits to a remote repository.
+
+9. `git branch`: Lists all branches in the repository. Use `git branch <branch_name>` to create a new branch.
+
+10. `git checkout <branch_name>`: Switches to the specified branch.
+
+11. `git merge <branch_name>`: Merges the specified branch into the current branch.
+
+12. `git remote -v`: Shows the configured remote repositories and their URLs.
+
+13. `git diff`: Shows the changes between the working directory and the last commit.
+
+14. `git reset <file_name>`: Unstages the specified file (removes from the staging area).
+
+15. `git stash`: Temporarily saves changes in a stack to switch branches or deal with a clean working directory.
+
+These are just a few of the many Git commands available. Git offers a powerful version control system to manage your code changes and collaborate with others on software development projects.
